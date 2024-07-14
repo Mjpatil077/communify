@@ -1,0 +1,27 @@
+.analytics {
+    padding: 20px;
+  }
+  
+  .analytics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .analytics-card {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .analytics-card .value {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .analytics-card .growth {
+    color: #4caf50;
+  }
+  

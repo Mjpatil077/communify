@@ -1,0 +1,28 @@
+.bookmarks {
+    padding: 20px;
+  }
+  
+  .bookmark-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .bookmark-item {
+    background-color: #1a1a1a;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bookmark-item a {
+    color: #8a2be2;
+    text-decoration: none;
+  }
+  
+  .bookmark-item span {
+    color: #888;
+    font-size: 0.8em;
+  }

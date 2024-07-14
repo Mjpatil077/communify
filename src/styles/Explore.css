@@ -1,0 +1,21 @@
+.explore {
+    padding: 20px;
+  }
+  
+  .explore-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .explore-item {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .explore-item:hover {
+    background-color: #2a2a2a;
+  }
